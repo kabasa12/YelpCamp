@@ -3,7 +3,7 @@
     <div class="row">
         <h1 class="text-center">Edit CampGround</h1>
         <div class="col-6 offset-3">
-            <form action="/campgrounds/<%= editCampground._id %>?_method=PUT" method="POST" class="validated-form"
+            <form action="/campgrounds/<%=editCampground._id%>?_method=PUT" method="POST" class="validated-form"
                 novalidate>
                 <div class="mb-3">
                     <label class="form-label" for="title">Title</label>
@@ -39,7 +39,7 @@
                 </div>
             </form>
             <div>
-                <a href="/campgrounds/<%= editCampground._id %>">Back To Campground</a>
+                <a href="/campgrounds/<%=editCampground._id%>">Back To Campground</a>
             </div>
         </div>
     </div>
